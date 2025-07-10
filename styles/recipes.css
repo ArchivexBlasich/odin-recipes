@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    background-color: skyblue;
+    border: 3px solid gray;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px 0;
+}
+
+.main a {
+    padding: 5px;
+    margin: 12px;
+    background-color: gray;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+.main img {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid gray;
+    margin-bottom: 10px;
+}
+
+.main h2 {
+    text-align: left;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px 6px;
+}
+
+.main p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 6px;
+}
+
+.main ul {
+    margin-left: 24px;
+}
+
+.main ol {
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+
+.main li {
+    font-size: 14px;
+    margin: 2px;
+}

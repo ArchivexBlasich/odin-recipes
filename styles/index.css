@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    background-color: skyblue;
+    border: 3px solid gray;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.main h1 {
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px 0; 
+}
+
+.main ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.main ul li {
+    margin: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
